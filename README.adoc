@@ -1,0 +1,56 @@
+# Mobil Programlama Proje
+
+Mobil Programlama Dersi İçin Geliştirilen Uygulama
+
+==== Uygulamanın Özeti :
+
+Uygulama Kocaeli Üniversitesi Bilgisayar Mühendisliği bölümü duyrularını ve 
+yemekhanede günün yemeklerini görmek için geliştirilmiş bir uygulamadır.
+Kullanıcı adı ile giriş yaparak web service üzerinden gelen verileri görüntülemektedir.
+Uygulama sayesinde zaman ve emek tassarufu sağlanmıştır.
+
+== splash
+Android uygulamaları açıldığı zaman karşınıza ilk uygulama logoları gelir
+ve yaklaşık 1, 2 saniye sonra uygulamaya geçer. Splash ile kullancıya logonun ardından 
+Sharedpreferences ile login ve kullanıcı kayıt ekranına yönlendirdik.
+image:http://i.hizliresim.com/adzDPg.png[Splash Screen]
+
+=== Login Sharedpreferences Ekranı
+AutoCompleteTextView kullanmak için oluşturduğumuz isim dizisi oluştururuz bu isimlerden birisi 
+girilir ise autocomplete kullanabiliriz.Kayıt ekranındaki kullanıcı adının boş geçilmesini engelleriz 
+ve boş geçmek ister ise uyarı veririz.Kullanıcı bilgilerini SharedPreferences bölümünene kayıt 
+ederek kullanıcının her seferinde login olması gerekliliğinin önüne geçtik.
+Daha sonra menü sayfasına geçtik.
+
+image:http://i.hizliresim.com/2nJklL.png[Splash Screen]
+
+=== Menü Sayfası
+
+Bu bölümde kullanıcının kayıt ekranında ki girdiği ismi ekranda gösterdik ve kullanıcıya üç seçenek sunduk.
+image:http://i.hizliresim.com/Wg7EgE.png[Menü Sayfası,400,810]
+
+=== Duyurular Sayfası
+
+Duyurular sayfasında web servis ile verileri çekerek ve asynctask kullanarak kullanıcıya duyuruları gösterdik.
+Duyuru üzerine tıklayarak detaylı bilgi alabilir.Link var ise tıklayarak linke yönlenebilir.
+
+image:http://i.hizliresim.com/Wg7E7L.png[Duyurular Sayfası,400,810]
+
+=== Yemekhane Sayfası
+
+Bu bölümde yemekhanede o gün çıkan yemekleri listeledik.
+
+image:http://i.hizliresim.com/3vEPz4.png[Yemekhane Sayfası,400,810]
+
+=== Hakkımızda
+
+Hakkımızda sayfasında uygulama geliştiricileri listeledik.
+
+=== Firebase notification Özelliği
+
+İstendiginde Google firebase konsoldan kullanıcılara notification gönderimi yapılması sağlanmıştır.
+
+image:http://i.hizliresim.com/BvL6Rv.png[FiraBase Console Sayfası,800,400]
+
+image:http://i.hizliresim.com/ErP6VA.png[FiraBase Console Sayfası,400,810]
+

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/activity_about"
+    android:layout_height="match_parent"
+    android:background="@color/md_grey_300"
+    android:gravity="center">
+    <TextView
+
+
+        android:id="@+id/tvOnur"
+        android:text="@string/about_item_onur"
+        android:ellipsize="marquee"
+        android:textColor="@color/md_deep_orange_500"
+        android:marqueeRepeatLimit ="marquee_forever"
+        android:focusable="true"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:focusableInTouchMode="true"
+        android:scrollHorizontally="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+
+
+        android:id="@+id/tvKoray"
+        android:text="@string/about_item_koray"
+        android:layout_marginTop="13dp"
+        android:ellipsize="marquee"
+        android:textColor="@color/md_deep_orange_500"
+        android:marqueeRepeatLimit ="marquee_forever"
+        android:focusable="true"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:focusableInTouchMode="true"
+        android:layout_below="@+id/tvOnur"
+        android:scrollHorizontally="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+
+
+        android:id="@+id/tvBerk"
+        android:text="@string/about_item_berk"
+        android:layout_marginTop="13dp"
+        android:ellipsize="marquee"
+        android:textColor="@color/md_deep_orange_500"
+        android:marqueeRepeatLimit ="marquee_forever"
+        android:focusable="true"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:focusableInTouchMode="true"
+        android:layout_below="@+id/tvKoray"
+        android:scrollHorizontally="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+
+
+        android:id="@+id/tvEnes"
+        android:text="@string/about_item_enes"
+        android:layout_marginTop="13dp"
+        android:ellipsize="marquee"
+        android:textColor="@color/md_deep_orange_500"
+        android:marqueeRepeatLimit ="marquee_forever"
+        android:focusable="true"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:focusableInTouchMode="true"
+        android:layout_below="@+id/tvBerk"
+        android:scrollHorizontally="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>

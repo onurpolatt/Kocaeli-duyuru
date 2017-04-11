@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MobilProgramlamaProje</string>
+    <string name="menu_item_duyuru">Duyurular</string>
+    <string name="menu_item_yemek">Yemek Listesi</string>
+    <string name="menu_item_hakkımızda">Hakkımızda</string>
+    <string name="about_item_koray">Koray Ergin 120202066</string>
+    <string name="about_item_enes">Enes Yalınkaya 130202115</string>
+    <string name="about_item_onur">Onur Polat 130202054</string>
+    <string name="about_item_berk">Berk Öztürk 130202068</string>
+    <string name="yemek_item_1">Kocaeli Üniversitesi Yemek Listesi</string>
+    <string name="yemek_item_2">Yemekler Üniversitemiz Mutfağında Günlük Pişirilmektedir.Menü 5 Çeşitten Oluşmaktadır.</string>
+    <string name="yemek_item_empty"> </string>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/activity_menu"
+    android:layout_height="match_parent"
+    android:background="@color/md_grey_300">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/koulogo"
+        android:id="@+id/imgKou"
+        android:maxWidth="240dp"
+        android:maxHeight="240dp"
+        android:adjustViewBounds="true"
+        android:layout_centerHorizontal="true"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvIsim"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/imgKou"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnDuyuru"
+        android:text="@string/menu_item_duyuru"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/tvIsim"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_centerInParent="true"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/custom_button"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+    <Button
+        android:id="@+id/btnYemek"
+        android:text="@string/menu_item_yemek"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/btnDuyuru"
+        android:layout_centerInParent="true"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/custom_button"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+    <Button
+        android:id="@+id/btnAbout"
+        android:text="@string/menu_item_hakkımızda"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/btnYemek"
+        android:layout_centerInParent="true"
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:background="@drawable/custom_button"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+
+</RelativeLayout>

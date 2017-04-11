@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "408162811392",
+    "firebase_url": "https://asdq-c85e1.firebaseio.com",
+    "project_id": "asdq-c85e1",
+    "storage_bucket": "asdq-c85e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408162811392:android:95451ddadd8a407a",
+        "android_client_info": {
+          "package_name": "com.example.berkztrk.mobilprogramlamaproje"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408162811392-0e2iearovtmgnm1kmr7jbpqq0k755u7l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [{
+        "current_key": " AIzaSyD0Lkjmz3BdAdcTlFiTx9IS7PmlCPdzqyU"}],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

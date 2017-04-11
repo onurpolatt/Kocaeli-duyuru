@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Mobil.iml" filepath="$PROJECT_DIR$/Mobil.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mobil2.iml" filepath="$PROJECT_DIR$/Mobil2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MobilDegisiklik.iml" filepath="$PROJECT_DIR$/MobilDegisiklik.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MobilDeneme.iml" filepath="$PROJECT_DIR$/MobilDeneme.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MobilProgramlamaProje5.iml" filepath="$PROJECT_DIR$/MobilProgramlamaProje5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
