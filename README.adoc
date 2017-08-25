@@ -24,11 +24,6 @@ Daha sonra menü sayfasına geçtik.
 
 image:http://i.hizliresim.com/2nJklL.png[Splash Screen]
 
-=== Menü Sayfası
-
-Bu bölümde kullanıcının kayıt ekranında ki girdiği ismi ekranda gösterdik ve kullanıcıya üç seçenek sunduk.
-image:http://i.hizliresim.com/Wg7EgE.png[Menü Sayfası,400,810]
-
 === Duyurular Sayfası
 
 Duyurular sayfasında web servis ile verileri çekerek ve asynctask kullanarak kullanıcıya duyuruları gösterdik.
